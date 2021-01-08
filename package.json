@@ -7,6 +7,8 @@
     "lib"
   ],
   "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "link": "npm link",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
@@ -26,10 +28,14 @@
   },
   "homepage": "https://github.com/bgoonz/https___mihirbeg.com_#readme",
   "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "consola": "^2.12.2",
+    "deployment": "^0.2.3",
     "netlify": "^6.0.9",
     "netlify-cms": "^2.10.80",
-    "@iarna/toml": "^2.2.5",
-    "consola": "^2.12.2"
+    "node-gyp": "^7.1.2",
+    "python2": "0.0.1",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
     "@nuxtjs/netlify-files": "^1.2.0",
@@ -60,7 +66,5 @@
       "\tstatus = 200"
     ],
     "description": "Define redirect for Netlify Functions to simplify calling one."
-    }
-
-
+  }
 }
