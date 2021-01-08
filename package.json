@@ -9,9 +9,7 @@
   "scripts": {
     "build": "npm run build",
     "link": "npm link",
-    "lint": "eslint --ext .js,.vue .",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+
   },
   "repository": {
     "type": "git",
@@ -37,24 +35,7 @@
     "python2": "0.0.1",
     "shelljs": "^0.8.4",
     "vue": "^2.6.12"
-  },
-
-  "Define Netlify Functions Directory": {
-    "prefix": "nff",
-    "body": [
-      "[build]",
-      "\tfunctions = \"${0}\""
-    ],
-    "description": "Define configuration for using Netlify Functions"
-  },
-  "Define API redirect for Netlify Functions": {
-    "prefix": "nfr",
-    "body": [
-      "[[redirects]]",
-      "\tfrom = \"/api/*\"",
-      "\tto= \"/.netlify/functions/:splat\"",
-      "\tstatus = 200"
-    ],
-    "description": "Define redirect for Netlify Functions to simplify calling one."
   }
+
+
 }
