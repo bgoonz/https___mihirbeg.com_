@@ -2,8 +2,6 @@
  * jQuery UI Effects 1.11.4
  * http://jqueryui.com
  *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license.
  * http://jquery.org/license
  *
  * http://api.jqueryui.com/category/effects-core/
@@ -13,8 +11,6 @@
  * jQuery Color Animations v2.1.2
  * https://github.com/jquery/jquery-color
  *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
  * http://jquery.org/license
  *
  * Date: Wed Jan 16 08:47:09 2013 -0600

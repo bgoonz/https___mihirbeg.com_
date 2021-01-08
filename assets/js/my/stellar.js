@@ -1,4 +1,3 @@
-/*! Stellar.js v0.6.2 | Copyright 2013, Mark Dalgleish | http://markdalgleish.com/projects/stellar.js | http://markdalgleish.mit-license.org */
 ( function ( e, t, n, r ) {
   function d( t, n ) {
     this.element = t, this.options = e.extend( {}, s, n ), this._defaults = s, this._name = i, this.init()

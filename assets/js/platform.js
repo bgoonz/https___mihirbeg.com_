@@ -2,7 +2,6 @@
  * 
  * 	elfsight.com
  * 	
- * 	Copyright (c) 2020 Elfsight, LLC. ALL RIGHTS RESERVED
  * 
  */
 ! function ( e ) {
@@ -578,7 +577,6 @@
   e.exports = c
 }, function ( e, t, n ) {
   /*!
-   * domready (c) Dustin Diaz 2014 - License MIT
    */
   ! function ( t, n ) {
     e.exports = n()
