@@ -38,18 +38,7 @@
     "shelljs": "^0.8.4",
     "vue": "^2.6.12"
   },
-  "devDependencies": {
-    "@nuxtjs/netlify-files": "^1.2.0",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "eslint": "latest",
-    "husky": "latest",
-    "jest": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
-  },
+
   "Define Netlify Functions Directory": {
     "prefix": "nff",
     "body": [
