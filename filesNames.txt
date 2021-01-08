@@ -4,9 +4,3 @@ assets
 filesNames.txt
 landing-page
 linkto
-for x in "./"/*/; do
-  (cd "$x"
-   files=(*)
-   printf '%s\n' "${files[@]}" > filesNames.txt
-  )
-done
