@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async>
+
+
+    const NetlifyAPI = require( 'netlify' )
+
+    const listNetlifySites = async function () {
+      const client = new NetlifyAPI( '1234myAccessToken' )
+      const sites = await client.listSites()
+      return sites
+    }
+
+  </script>
+  
+  <script async src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -11,3 +25,4 @@
     allowfullscreen></iframe>
 </body>
 </html>
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>

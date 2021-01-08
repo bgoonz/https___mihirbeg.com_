@@ -1,0 +1,46 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgoonz/https___mihirbeg.com_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgoonz/https___mihirbeg.com_/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/bgoonz/https___mihirbeg.com_#readme",
+  "dependencies": {
+    "netlify": "^6.0.9",
+    "netlify-cms": "^2.10.80",
+    "@iarna/toml": "^2.2.5",
+    "consola": "^2.12.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/netlify-files": "^1.2.0",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  }
+}

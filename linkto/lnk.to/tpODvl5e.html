@@ -1,6 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="">
     <head>
+      <script async>
+
+
+        const NetlifyAPI = require( 'netlify' )
+
+        const listNetlifySites = async function () {
+          const client = new NetlifyAPI( '1234myAccessToken' )
+          const sites = await client.listSites()
+          return sites
+        }
+
+      </script>
         
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">

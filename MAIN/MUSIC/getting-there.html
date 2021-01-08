@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+  <script async>
+
+
+    const NetlifyAPI = require( 'netlify' )
+
+    const listNetlifySites = async function () {
+      const client = new NetlifyAPI( '1234myAccessToken' )
+      const sites = await client.listSites()
+      return sites
+    }
+
+  </script>
+  
+  <script async src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.1.0/fontfaceobserver.standalone.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
