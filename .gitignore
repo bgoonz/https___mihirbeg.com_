@@ -159,3 +159,10 @@ wheels/
 yarn-debug.log*
 yarn-error.log*
 node_modules
+
+
+docker run -t              \
+  -v "$(pwd):/work"        \
+  -u $(id -u):$(id -g)     \
+  thumbsupgallery/thumbsup \
+thumbsup --input "./" --output "./"

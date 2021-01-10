@@ -1,6 +1,0 @@
-Extended
-MAIN
-assets
-filesNames.txt
-landing-page
-linkto
