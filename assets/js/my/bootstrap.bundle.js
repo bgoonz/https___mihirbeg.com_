@@ -1,4 +1,3 @@
-
 (function (global, factory) {
   typeof exports === "object" && typeof module !== "undefined"
     ? factory(exports, require("jquery"))
@@ -115,9 +114,8 @@
 
   function setTransitionEndSupport() {
     $__default["default"].fn.emulateTransitionEnd = transitionEndEmulator;
-    $__default["default"].event.special[
-      Util.TRANSITION_END
-    ] = getSpecialTransitionEndEvent();
+    $__default["default"].event.special[Util.TRANSITION_END] =
+      getSpecialTransitionEndEvent();
   }
   /**
    * --------------------------------------------------------------------------
@@ -158,9 +156,8 @@
       var transitionDuration = $__default["default"](element).css(
         "transition-duration"
       );
-      var transitionDelay = $__default["default"](element).css(
-        "transition-delay"
-      );
+      var transitionDelay =
+        $__default["default"](element).css("transition-delay");
       var floatTransitionDuration = parseFloat(transitionDuration);
       var floatTransitionDelay = parseFloat(transitionDelay); // Return 0 if element or transition duration is not found
 
@@ -502,9 +499,8 @@
           if (triggerChangeEvent) {
             // if it's not a radio button or checkbox don't add a pointless/invalid checked property to the input
             if (input.type === "checkbox" || input.type === "radio") {
-              input.checked = !this._element.classList.contains(
-                CLASS_NAME_ACTIVE
-              );
+              input.checked =
+                !this._element.classList.contains(CLASS_NAME_ACTIVE);
             }
 
             if (!this.shouldAvoidTriggerChange) {
@@ -763,9 +759,8 @@
       this.touchDeltaX = 0;
       this._config = this._getConfig(config);
       this._element = element;
-      this._indicatorsElement = this._element.querySelector(
-        SELECTOR_INDICATORS
-      );
+      this._indicatorsElement =
+        this._element.querySelector(SELECTOR_INDICATORS);
       this._touchSupported =
         "ontouchstart" in document.documentElement ||
         navigator.maxTouchPoints > 0;
@@ -1116,9 +1111,8 @@
         );
         $__default["default"](indicators).removeClass(CLASS_NAME_ACTIVE$1);
 
-        var nextIndicator = this._indicatorsElement.children[
-          this._getItemIndex(element)
-        ];
+        var nextIndicator =
+          this._indicatorsElement.children[this._getItemIndex(element)];
 
         if (nextIndicator) {
           $__default["default"](nextIndicator).addClass(CLASS_NAME_ACTIVE$1);
@@ -1207,9 +1201,8 @@
             this._config.defaultInterval || this._config.interval;
         }
 
-        var transitionDuration = Util.getTransitionDurationFromElement(
-          activeElement
-        );
+        var transitionDuration =
+          Util.getTransitionDurationFromElement(activeElement);
         $__default["default"](activeElement)
           .one(Util.TRANSITION_END, function () {
             $__default["default"](nextElement)
@@ -5563,9 +5556,8 @@
       var _this3 = this;
 
       if (this._config.backdrop === "static") {
-        var hideEventPrevented = $__default["default"].Event(
-          EVENT_HIDE_PREVENTED
-        );
+        var hideEventPrevented =
+          $__default["default"].Event(EVENT_HIDE_PREVENTED);
         $__default["default"](this._element).trigger(hideEventPrevented);
 
         if (hideEventPrevented.isDefaultPrevented()) {
@@ -5826,9 +5818,8 @@
         };
 
         if ($__default["default"](this._element).hasClass(CLASS_NAME_FADE$1)) {
-          var _backdropTransitionDuration = Util.getTransitionDurationFromElement(
-            this._backdrop
-          );
+          var _backdropTransitionDuration =
+            Util.getTransitionDurationFromElement(this._backdrop);
 
           $__default["default"](this._backdrop)
             .one(Util.TRANSITION_END, callbackRemove)
@@ -5884,9 +5875,8 @@
 
         $__default["default"](fixedContent).each(function (index, element) {
           var actualPadding = element.style.paddingRight;
-          var calculatedPadding = $__default["default"](element).css(
-            "padding-right"
-          );
+          var calculatedPadding =
+            $__default["default"](element).css("padding-right");
           $__default["default"](element)
             .data("padding-right", actualPadding)
             .css(
@@ -5897,9 +5887,8 @@
 
         $__default["default"](stickyContent).each(function (index, element) {
           var actualMargin = element.style.marginRight;
-          var calculatedMargin = $__default["default"](element).css(
-            "margin-right"
-          );
+          var calculatedMargin =
+            $__default["default"](element).css("margin-right");
           $__default["default"](element)
             .data("margin-right", actualMargin)
             .css(
@@ -6127,14 +6116,16 @@
    * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
    */
 
-  var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^#&/:?]*(?:[#/?]|$))/gi;
+  var SAFE_URL_PATTERN =
+    /^(?:(?:https?|mailto|ftp|tel|file):|[^#&/:?]*(?:[#/?]|$))/gi;
   /**
    * A pattern that matches safe data URLs. Only matches image, video and audio types.
    *
    * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
    */
 
-  var DATA_URL_PATTERN = /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[\d+/a-z]+=*$/i;
+  var DATA_URL_PATTERN =
+    /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[\d+/a-z]+=*$/i;
 
   function allowedAttribute(attr, allowedAttributeList) {
     var attrName = attr.nodeName.toLowerCase();
@@ -7774,9 +7765,8 @@
           CLASS_NAME_DROPDOWN_MENU
         )
       ) {
-        var dropdownElement = $__default["default"](element).closest(
-          SELECTOR_DROPDOWN$1
-        )[0];
+        var dropdownElement =
+          $__default["default"](element).closest(SELECTOR_DROPDOWN$1)[0];
 
         if (dropdownElement) {
           var dropdownToggleList = [].slice.call(

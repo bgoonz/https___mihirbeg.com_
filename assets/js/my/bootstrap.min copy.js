@@ -2679,9 +2679,9 @@
           }),
           (t._activate = function (t, e, n) {
             var i = this,
-              r = ("UL" === e.nodeName
-                ? bn(e).find(Rn)
-                : bn(e).children(Ln))[0],
+              r = (
+                "UL" === e.nodeName ? bn(e).find(Rn) : bn(e).children(Ln)
+              )[0],
               o = n && r && bn(r).hasClass(kn),
               s = function () {
                 return i._transitionComplete(t, r, n);

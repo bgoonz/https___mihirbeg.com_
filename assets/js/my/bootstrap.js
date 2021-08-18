@@ -1248,7 +1248,8 @@ if (typeof jQuery === "undefined") {
     var fullWindowWidth = window.innerWidth;
     if (!fullWindowWidth) {
       // workaround for missing window.innerWidth in IE8
-      var documentElementRect = document.documentElement.getBoundingClientRect();
+      var documentElementRect =
+        document.documentElement.getBoundingClientRect();
       fullWindowWidth =
         documentElementRect.right - Math.abs(documentElementRect.left);
     }
