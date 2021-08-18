@@ -1,12 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans,
+    Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
 }
 
 .header-nav__container {
-  background-color: #026AA7;
-  color: #FFFFFF;
+  background-color: #026aa7;
+  color: #ffffff;
   padding: 4px;
   line-height: 20px;
   font-size: 16px;
@@ -23,14 +24,14 @@ body {
   text-decoration: none;
   align-items: center;
   text-align: center;
-  background-color: hsla(0,0%,100%,.3);
+  background-color: hsla(0, 0%, 100%, 0.3);
   box-shadow: none;
   color: #fff;
   height: 32px;
   line-height: 32px;
   margin: 0 4px 0 0;
   padding: 0;
-  transition: .1s ease;
+  transition: 0.1s ease;
   white-space: nowrap;
   padding: 8px;
   height: 32px;
@@ -43,7 +44,7 @@ body {
 }
 
 .header-nav__button#alerts {
-  background-color: #CF513D;
+  background-color: #cf513d;
 }
 
 .header-nav__button#search > input {
@@ -112,7 +113,7 @@ body {
   color: #172b4d;
   line-height: 20px;
   font-weight: 700;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .boards__container {
@@ -126,7 +127,7 @@ body {
 .boards__sidebar {
   border-radius: 3px;
   flex: 0 0 220px;
-  background-color:#6C547B;
+  background-color: #6c547b;
   padding: 0 20px;
   max-width: 180px;
   padding-bottom: 32px;
@@ -137,7 +138,7 @@ body {
 
 .boards__sidebar-content p.title,
 .boards__sidebar-content a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .boards__sidebar-content > p.description {
@@ -154,7 +155,7 @@ body {
   height: 100px;
   max-width: 250px;
   background-color: hotpink;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   border-radius: 3px;
   box-sizing: border-box;

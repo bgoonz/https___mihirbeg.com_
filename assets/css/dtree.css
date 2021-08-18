@@ -11,20 +11,23 @@
 }
 .dtree img {
   border: 0px !important;
-  margin:0px  !important;
-  display:inline !important;
+  margin: 0px !important;
+  display: inline !important;
   vertical-align: middle !important;
 }
-.dtree a,.dtree a:visited {
+.dtree a,
+.dtree a:visited {
   color: #333;
   text-decoration: none;
 }
-.dtree a.node, .dtree a.nodeSel {
+.dtree a.node,
+.dtree a.nodeSel {
   white-space: nowrap;
   padding: 1px 2px 1px 2px;
   /*padding: 0px 1px 0px 1px;*/
 }
-.dtree a.node:hover, .dtree a.nodeSel:hover {
+.dtree a.node:hover,
+.dtree a.nodeSel:hover {
   color: #333;
   text-decoration: underline;
 }

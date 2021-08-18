@@ -235,8 +235,7 @@ h6.description {
   float: left;
   display: block;
   margin: 0 2px;
-  background: url("/assets/images/social-media-icons.png")
-    no-repeat 0px 0;
+  background: url("/assets/images/social-media-icons.png") no-repeat 0px 0;
 }
 
 .social .twitter {

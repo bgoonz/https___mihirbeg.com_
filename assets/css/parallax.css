@@ -6,7 +6,6 @@ Version: 1.0
 
 */
 
-
 /*  ----------------------------------------------
             CSS TABLE OF CONTENTS
     ------------------------------------------------- */
@@ -17,6 +16,6 @@ Version: 1.0
 #parallax-slide,
 #products,
 #portfolio,
-#counter{
-	background-attachment: fixed;
+#counter {
+  background-attachment: fixed;
 }

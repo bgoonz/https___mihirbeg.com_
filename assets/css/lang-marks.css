@@ -1,20 +1,18 @@
 span.haslang {
-	border-bottom: 1px dashed #aaa;
-	white-space : nowrap;
+  border-bottom: 1px dashed #aaa;
+  white-space: nowrap;
 }
 
-
-
 span[lang]::after {
-	content: attr(lang);
-	text-transform: uppercase;
-	font-family: sans-serif;
-	color: white;
-	background: red;
-	border: 1px solid red;
-	font-size: x-small;
-	font-weight: normal;
-	vertical-align: top;
+  content: attr(lang);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+  background: red;
+  border: 1px solid red;
+  font-size: x-small;
+  font-weight: normal;
+  vertical-align: top;
 }
 
 /*
@@ -37,4 +35,3 @@ span[xml\:lang]::after {
   font-weight: normal;
   vertical-align: top;
 }
-

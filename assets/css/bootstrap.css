@@ -5422,11 +5422,10 @@ a.thumbnail.active {
   );
   background-image: linear-gradient(
     45deg,
-    rgba(0,0,0,0)
-    transparent 25%,
+    rgba(0, 0, 0, 0) transparent 25%,
     transparent 50%,
-    rgba(0,0,0,0),
-    rgba(0,0,0,0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
     transparent 75%,
     transparent
   );
@@ -5690,8 +5689,8 @@ button.list-group-item-danger.active:focus {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0,0,0);
-  box-shadow: 0 1px 1px rgba(0,0,0,0);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
 }
 .panel-body {
   padding: 15px;

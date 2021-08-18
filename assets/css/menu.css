@@ -13,14 +13,14 @@ div.htmlarea-context-menu {
 }
 
 div.htmlarea-context-menu table {
-  font: 11px tahoma,verdana,sans-serif;
+  font: 11px tahoma, verdana, sans-serif;
   border-collapse: collapse;
 }
 
 div.htmlarea-context-menu tr.item td.icon img {
-/* taken care of by xinha.makeBtnImg() */
-/* width: 18px; */
-/* height: 18px; */
+  /* taken care of by xinha.makeBtnImg() */
+  /* width: 18px; */
+  /* height: 18px; */
 }
 
 div.htmlarea-context-menu tr.item td.icon {
@@ -49,7 +49,7 @@ div.htmlarea-context-menu tr.separator td.icon {
 }
 
 div.htmlarea-context-menu tr.separator td.icon div {
-/*  margin-left: 3px; */
+  /*  margin-left: 3px; */
   border-color: #fff;
 }
 

@@ -15,18 +15,18 @@
   opacity: 0;
   pointer-events: none;
   -webkit-transition: opacity 0.15s linear;
-          transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
 .tipper * {
   -webkit-transition: none;
-          transition: none;
+  transition: none;
 }
 .tipper,
 .tipper * {
   -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-      -ms-user-select: none !important;
-          user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
 }
 .tipper,
 .tipper *,
@@ -52,7 +52,7 @@
 .tipper .tipper-caret {
   width: 0;
   height: 0;
-  content: '';
+  content: "";
   display: block;
   margin: 0;
   position: absolute;
