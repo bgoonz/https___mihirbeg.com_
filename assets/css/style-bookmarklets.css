@@ -16,15 +16,15 @@
 #bookmarklets h2 {
   font-size: 26px;
   margin-top: 15px;
-  font-family: 'Raleway', Ubuntu, Helvetica, sans-serif;
+  font-family: "Raleway", Ubuntu, Helvetica, sans-serif;
 }
 
 #bookmarklets h3 {
   font-size: 20px;
   margin-bottom: 5px;
   margin-top: 15px;
-  color: #4272AB;
-  font-family: 'Raleway', Ubuntu, Helvetica, sans-serif;
+  color: #4272ab;
+  font-family: "Raleway", Ubuntu, Helvetica, sans-serif;
 }
 
 #bookmarklets ul {
@@ -39,7 +39,7 @@
 }
 
 #bookmarklets #notsure a {
-  color: #6D92BE;
+  color: #6d92be;
 }
 
 #platform-browser-version {
@@ -73,7 +73,7 @@
 }
 
 #bookmarklet-url a {
-  color: #6D92BE;
+  color: #6d92be;
 }
 
 #bookmarklet-url-input {
@@ -86,7 +86,7 @@
 
 #bookmarklet-url-input a {
   font-size: 14px;
-  color: #6D92BE;
+  color: #6d92be;
 }
 
 #bookmarklet-link {
@@ -107,14 +107,14 @@
 }
 
 #bookmarklet-link #bookmarklet-link-url span {
-  color: #6D92BE;
+  color: #6d92be;
 }
 
 #bookmarklet-link a {
   padding: 7px;
-  border: 1px solid #4272AB;
+  border: 1px solid #4272ab;
   border-radius: 3px;
-  background-color: #D6E0ED;
+  background-color: #d6e0ed;
   text-decoration: none;
-  color: #1C4E8A;
+  color: #1c4e8a;
 }

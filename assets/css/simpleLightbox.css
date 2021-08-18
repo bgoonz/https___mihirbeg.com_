@@ -1,4 +1,6 @@
-.slbOverlay, .slbWrapOuter, .slbWrap {
+.slbOverlay,
+.slbWrapOuter,
+.slbWrap {
   position: fixed;
   top: 0;
   right: 0;
@@ -79,7 +81,7 @@
   display: block;
   z-index: -1;
   box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.6);
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .slbImage {
@@ -111,7 +113,8 @@
   text-align: center;
 }
 
-.slbCloseBtn, .slbArrow {
+.slbCloseBtn,
+.slbArrow {
   margin: 0;
   padding: 0;
   border: 0;
@@ -119,16 +122,19 @@
   background: none;
 }
 
-.slbCloseBtn::-moz-focus-inner, .slbArrow::-moz-focus-inner {
+.slbCloseBtn::-moz-focus-inner,
+.slbArrow::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-.slbCloseBtn:hover, .slbArrow:hover {
+.slbCloseBtn:hover,
+.slbArrow:hover {
   opacity: 0.5;
 }
 
-.slbCloseBtn:active, .slbArrow:active {
+.slbCloseBtn:active,
+.slbArrow:active {
   opacity: 0.8;
 }
 
@@ -146,8 +152,8 @@
   color: #fff;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .slbLoading .slbCloseBtn {
@@ -180,8 +186,8 @@
   opacity: 0.7;
   text-indent: -999em;
   overflow: hidden;
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .slbArrow:before {
